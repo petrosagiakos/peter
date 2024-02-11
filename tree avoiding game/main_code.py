@@ -22,7 +22,7 @@ class obsticle:
      def __init__(self, posx, posy, car1):
         self.posx=posx
         self.posy=posy
-        self.img=pygame.image.load('tree.jpg')
+        self.img=pygame.image.load('tree.png')
         self.c1=car1
      def appear(self):
          epif.blit(self.img,(self.posx,self.posy,100,100))
